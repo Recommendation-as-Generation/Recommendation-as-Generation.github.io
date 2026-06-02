@@ -18,49 +18,49 @@ const frameworkModules = [
   {
     id: "dsve",
     title: "Disentangled Semantic Video Encoders",
-    description: "Disentangled Semantic Video Encoders map each input video into disentangled Semantic IDs(D-SIDs) by separating semantic content from creative attributes. They combine multimodal representation learning with residual-quantization tokenization, producing content and creative SID sequences that form the shared discrete latent space for recommendation and generation.",
+    description: "Disentangled Semantic Video Encoders map each input video into D-SIDs by separating semantic content from creative attributes. Building on Qwen2.5-VL’s native visual encoder and text tokenizer, they use instruction-guided multimodal representation learning and RQ-based discrete tokenization to produce content and creative semantic ID sequences in a shared latent space for recommendation and generation.",
     box: { left: 1.7, top: 2.6, width: 39.04, height: 36.0 }
   },
   {
     id: "grm",
     title: "Generative Recommendation Model",
-    description: "The Generative Recommendation Model autoregressively predicts future-interest D-SIDs from user context, including static profile features and behavior histories. In RaG, these predicted D-SIDs are treated as generative interest representations that can be decoded into new personalized videos beyond a fixed content corpus.",
+    description: "The Generative Recommendation Model autoregressively predicts the sequential D-SIDs representing a user’s future interests from user context, including profile features and interaction history. Unlike prior GRM-based retrieval systems, RaG treats these predicted D-SIDs as generative interest representations that can be directly decoded into new personalized videos beyond a fixed content pool.",
     box: { left: 1.7, top: 38, width: 19.4, height: 32.0 }
   },
   {
     id: "im",
     title: "Instruction Model",
-    description: "The Instruction Model translates D-SIDs into shot-level video production instructions. Conditioned on reconstructed SID embeddings and metadata such as topic tags or product information, it generates instructions that specify scene composition, camera motion, temporal pacing, and cinematic style.",
+    description: "The Instruction Model translates D-SIDs into shot-level video production instructions that serve as an interpretable and structured bridge between discrete user interests and controllable video generation. It is conditioned on two heterogeneous inputs: the primary D-SIDs and optional metadata such as product information or marketing topics, with metadata masked when unavailable.",
     box: { left: 21.7, top: 38, width: 18.3, height: 32.0 }
   },
   {
     id: "avgs",
     title: "Video Generation Agents",
-    description: "Video Generation Agents formulate personalized video generation as a structured multi-agent decision process over a shared generation state. Instead of one-shot generation, VGAs coordinate visual, audio, and effect actions conditioned on instructions, tool descriptions, and intermediate outputs.",
+    description: "Video Generation Agents formulate personalized video generation as a structured multi-agent decision process over an evolving generation state. Conditioned on instructions, tool descriptions, accumulated upstream context, and role-specific prompts, they generate videos through hierarchical planning, multimodal alignment, artistic enhancement, and iterative refinement within a bounded reflection loop.",
     box: { left: 41.2, top: 2.6, width: 56.5, height: 70 }
   },
   {
     id: "vpa",
     title: "Visual Planning Agent (VPA)",
-    description: "The Visual Planning Agent acts as the global controller for video generation. It structures the overall flow and clip-level storyboard by producing scene segments, layout configurations, and temporal boundaries while considering reusable visual assets and registered visual-generation tools.",
+    description: "The Visual Planning Agent acts as the global controller at the visual stage. It produces a clip-level storyboard with scene segments, layout configurations, and temporal boundaries, establishing the narrative flow for downstream generation.",
     box: { left: 40.8, top: 44.0, width: 18.0, height: 25.6 }
   },
   {
     id: "aaa",
     title: "Audio Alignment Agent (AAA)",
-    description: "The Audio Alignment Agent is conditioned on the generated instruction and the visual plan. It produces temporally aligned audio signals, including speech and background music, synchronized with scene transitions and the evolving visual sequence.",
+    description: "The Audio Alignment Agent operates after visual planning, conditioned on the visual-stage output and accumulated upstream context. It generates temporally aligned audio, including speech and background music, synchronized with scene transitions.",
     box: { left: 59.7, top: 44.0, width: 18.1, height: 25.6 }
   },
   {
     id: "aeea",
     title: "Artistic Effect Enhancement Agent (AEEA)",
-    description: "The Artistic Effect Enhancement Agent performs post-production refinement conditioned on upstream visual and audio outputs. It adds subtitles, visual effects, transitions, highlights, and call-to-action elements so the generated video is presentation-ready for advertising recommendation.",
+    description: "The Artistic Effect Enhancement Agent operates at the effect stage with access to the upstream visual and audio context. It performs post-production refinement by adding subtitles, visual effects, transitions, and call-to-action elements.",
     box: { left: 77.0, top: 44.0, width: 18.4, height: 25.6 }
   },
   {
     id: "reward",
     title: "Synergistic Cross-Domain Reward Learning",
-    description: "SCRL jointly optimizes recommendation and video generation with three reward families: video quality, interest alignment, and user feedback. It treats user feedback as the primary objective while using interest alignment and video quality as constraints, stabilizing multi-reward optimization with GDPO and a PID-controlled Lagrangian scheme.",
+    description: "Synergistic Cross-Domain Reward Learning formulates joint optimization with three synergistic objectives: video quality, interest alignment, and user feedback. It treats user feedback as the primary objective, uses interest alignment and video quality as constraints, and combines sparse real feedback with dense engagement estimates from deployed ranking models.",
     box: { left: 0.8, top: 72.0, width: 98.0, height: 27.6 }
   }
 ];
