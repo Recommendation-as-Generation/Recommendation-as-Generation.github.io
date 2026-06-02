@@ -1,0 +1,1 @@
+gender: female, age: 25-34, interests: snack deals, flavored drinks, convenience foods, value-for-money shopping

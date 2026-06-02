@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-05-29T06:18:34.128Z",
+  "users": [
+    {
+      "id": "User1",
+      "label": "User1",
+      "description": "gender: female, age: 25-34, interests: young mother lifestyle, baby care, household essentials, value-for-money shopping",
+      "items": [
+        {
+          "type": "image",
+          "name": "01-school-age-parenting",
+          "file": "assets/users/User1/01-school-age-parenting.jpeg",
+          "caption": "Parenting signal: school-age child education and family planning concerns."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User1/1.mp4",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "name": "02-babycare-diapers",
+          "file": "assets/users/User1/02-babycare-diapers.jpeg",
+          "caption": "Baby-care signal: interest in diapers, infant hygiene, and trusted childcare essentials."
+        },
+        {
+          "type": "image",
+          "name": "03-cotton-cleansing-towels",
+          "file": "assets/users/User1/03-cotton-cleansing-towels.jpeg",
+          "caption": "Household essentials signal: value-focused purchase of soft cotton cleansing towels."
+        },
+        {
+          "type": "image",
+          "name": "04-children-comic-drawing-book",
+          "file": "assets/users/User1/04-children-comic-drawing-book.jpeg",
+          "caption": "Creative-learning signal: interest in children’s comic drawing books, art practice, and affordable educational activity products."
+        },
+        {
+          "type": "image",
+          "name": "05-fresh-milk-cake",
+          "file": "assets/users/User1/05-fresh-milk-cake.jpeg",
+          "caption": "Lifestyle consumption signal: fresh dessert and family snack purchase interest."
+        },
+        {
+          "type": "image",
+          "name": "06-beauty-waiting-routine",
+          "file": "assets/users/User1/06-beauty-waiting-routine.jpeg",
+          "caption": "Beauty routine signal: young female lifestyle content with quick self-care context."
+        }
+      ]
+    },
+    {
+      "id": "User2",
+      "label": "User2",
+      "description": "gender: female, age: 18-29, interests: beauty makeup, skincare routines, complexion correction, affordable cosmetics shopping",
+      "items": [
+        {
+          "type": "image",
+          "name": "01-body-sunscreen-cream",
+          "file": "assets/users/User2/01-body-sunscreen-cream.jpeg",
+          "caption": "Skincare signal: body sunscreen and whitening protection for daily outdoor routines."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User2/1.mp4",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "name": "02-tone-up-primer",
+          "file": "assets/users/User2/02-tone-up-primer.jpeg",
+          "caption": "Complexion signal: tone-up cream for quick bare-face brightness and lightweight base makeup."
+        },
+        {
+          "type": "image",
+          "name": "03-ellio-mud-mask",
+          "file": "assets/users/User2/03-ellio-mud-mask.jpeg",
+          "caption": "Mask-care signal: interest in clay masks, cleansing routines, and oil-control skincare."
+        },
+        {
+          "type": "image",
+          "name": "04-moisturizing-setting-powder",
+          "file": "assets/users/User2/04-moisturizing-setting-powder.jpeg",
+          "caption": "Makeup-finish signal: comparison of ordinary powder versus moisturizing setting powder."
+        },
+        {
+          "type": "image",
+          "name": "05-eyeliner-pencil-sale",
+          "file": "assets/users/User2/05-eyeliner-pencil-sale.jpeg",
+          "caption": "Eye-makeup signal: eyeliner application with strong discount and shopping urgency cues."
+        },
+        {
+          "type": "image",
+          "name": "06-contour-makeup-tutorial",
+          "file": "assets/users/User2/06-contour-makeup-tutorial.jpeg",
+          "caption": "Tutorial signal: contour and highlight technique for brighter, more dimensional makeup."
+        },
+        {
+          "type": "image",
+          "name": "07-affordable-highlighter-palette",
+          "file": "assets/users/User2/07-affordable-highlighter-palette.jpeg",
+          "caption": "Value-shopping signal: affordable highlighter palette as a budget-friendly cosmetics purchase."
+        },
+        {
+          "type": "image",
+          "name": "08-hydrating-makeup-cream",
+          "file": "assets/users/User2/08-hydrating-makeup-cream.jpeg",
+          "caption": "Hydrating makeup signal: repeated-use cream/cushion product for moisture and base coverage."
+        }
+      ]
+    },
+    {
+      "id": "User3",
+      "label": "User3",
+      "description": "gender: male, age: 45-60, interests: rural life, country life stories, farming content, free online novels",
+      "items": [
+        {
+          "type": "image",
+          "name": "01-free-novel-text-story",
+          "file": "assets/users/User3/01-free-novel-text-story.jpeg",
+          "caption": "Novel-reading signal: free online fiction with dramatic family and business-conflict plot hooks."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User3/1.mp4",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "name": "02-rural-family-drama",
+          "file": "assets/users/User3/02-rural-family-drama.jpeg",
+          "caption": "Country-story signal: village family conflict framed around filial duty and rural relationships."
+        },
+        {
+          "type": "image",
+          "name": "03-country-comedy-broom",
+          "file": "assets/users/User3/03-country-comedy-broom.jpeg",
+          "caption": "Rural-life signal: countryside household setting with short-drama comedy and practical props."
+        },
+        {
+          "type": "image",
+          "name": "04-corn-stalk-rural-comedy",
+          "file": "assets/users/User3/04-corn-stalk-rural-comedy.jpeg",
+          "caption": "Village comedy signal: farmyard corn-stalk scene with humorous rural short-video pacing."
+        },
+        {
+          "type": "image",
+          "name": "05-cabbage-field-harvest",
+          "file": "assets/users/User3/05-cabbage-field-harvest.jpeg",
+          "caption": "Farming signal: hands-on vegetable field work and cabbage harvest details."
+        },
+        {
+          "type": "image",
+          "name": "06-dried-vegetable-bundling",
+          "file": "assets/users/User3/06-dried-vegetable-bundling.jpeg",
+          "caption": "Agricultural craft signal: close-up bundling of dried stems and traditional farm handling."
+        },
+        {
+          "type": "image",
+          "name": "07-crop-field-weeding",
+          "file": "assets/users/User3/07-crop-field-weeding.jpeg",
+          "caption": "Field-care signal: crop growth, weeds, and practical farming management attention."
+        },
+        {
+          "type": "image",
+          "name": "08-old-village-home-shrine",
+          "file": "assets/users/User3/08-old-village-home-shrine.jpeg",
+          "caption": "Rural memory signal: old village home interior with traditional shrine and countryside atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "User4",
+      "label": "User4",
+      "description": "gender: female, age: 25-34, interests: snack deals, flavored drinks, convenience foods, value-for-money shopping",
+      "items": [
+        {
+          "type": "image",
+          "name": "01-chocolate-fu-snacks",
+          "file": "assets/users/User4/01-chocolate-fu-snacks.jpeg",
+          "caption": "Snack signal: individually wrapped chocolate pastry snacks for convenient at-home eating."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User4/1.mp4",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "name": "02-whole-wheat-toast-deal",
+          "file": "assets/users/User4/02-whole-wheat-toast-deal.jpeg",
+          "caption": "Value-food signal: low-price whole-wheat toast bundle with strong quantity-for-price appeal."
+        },
+        {
+          "type": "image",
+          "name": "03-instant-noodle-eating",
+          "file": "assets/users/User4/03-instant-noodle-eating.jpeg",
+          "caption": "Convenience-food signal: large instant noodle serving and casual ready-to-eat meal interest."
+        },
+        {
+          "type": "image",
+          "name": "04-golden-apricot-fruit",
+          "file": "assets/users/User4/04-golden-apricot-fruit.jpeg",
+          "caption": "Fresh-fruit signal: sweet-and-sour golden apricot close-up emphasizing taste and freshness."
+        },
+        {
+          "type": "image",
+          "name": "05-large-orange-drink",
+          "file": "assets/users/User4/05-large-orange-drink.jpeg",
+          "caption": "Flavored-drink signal: oversized orange beverage with playful, shareable drinking moment."
+        },
+        {
+          "type": "image",
+          "name": "06-black-water-drink",
+          "file": "assets/users/User4/06-black-water-drink.jpeg",
+          "caption": "Novel beverage signal: black-water drink product wall with curiosity-driven taste positioning."
+        },
+        {
+          "type": "image",
+          "name": "07-milk-tea-flash-deal",
+          "file": "assets/users/User4/07-milk-tea-flash-deal.jpeg",
+          "caption": "Deal-seeking signal: milk tea flash purchase with ultra-low-price promotion cue."
+        },
+        {
+          "type": "image",
+          "name": "08-lemon-honey-water",
+          "file": "assets/users/User4/08-lemon-honey-water.jpeg",
+          "caption": "Bottled-drink signal: lemon honey water promotion with energetic drink-product presentation."
+        }
+      ]
+    },
+    {
+      "id": "User5",
+      "label": "User5",
+      "description": "gender: female, age: 18-24, interests: social apps, voice chat, follower growth, short dramas, gaming communities",
+      "items": [
+        {
+          "type": "image",
+          "name": "01-soul-voice-chat",
+          "file": "assets/users/User5/01-soul-voice-chat.jpeg",
+          "caption": "Voice-chat signal: intimate Soul conversation with repeated short audio replies."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User5/1.mp4",
+          "caption": ""
+        },
+        {
+          "type": "image",
+          "name": "02-soul-night-chat-stickers",
+          "file": "assets/users/User5/02-soul-night-chat-stickers.jpeg",
+          "caption": "Night-chat signal: late-evening Soul messaging with cute stickers and voice notes."
+        },
+        {
+          "type": "image",
+          "name": "03-soul-map-social-discovery",
+          "file": "assets/users/User5/03-soul-map-social-discovery.jpeg",
+          "caption": "Social-discovery signal: Soul map feature and nearby friend exploration interest."
+        },
+        {
+          "type": "image",
+          "name": "04-social-growth-tutorial",
+          "file": "assets/users/User5/04-social-growth-tutorial.jpeg",
+          "caption": "Creator-growth signal: advice content about rapidly gaining followers and engagement."
+        },
+        {
+          "type": "image",
+          "name": "05-fashion-self-confidence",
+          "file": "assets/users/User5/05-fashion-self-confidence.jpeg",
+          "caption": "Self-presentation signal: fashion-oriented selfie content tied to confidence and appearance."
+        },
+        {
+          "type": "image",
+          "name": "06-free-short-drama",
+          "file": "assets/users/User5/06-free-short-drama.jpeg",
+          "caption": "Short-drama signal: interest in free romantic drama clips and mobile entertainment apps."
+        },
+        {
+          "type": "image",
+          "name": "07-gaming-profile-cosplay",
+          "file": "assets/users/User5/07-gaming-profile-cosplay.jpeg",
+          "caption": "Gaming-social signal: game profile showcase with cute cosplay styling and community sharing."
+        }
+      ]
+    }
+  ]
+}

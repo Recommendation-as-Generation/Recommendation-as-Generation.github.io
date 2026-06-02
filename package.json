@@ -1,0 +1,10 @@
+{
+  "name": "recommendation-timeline-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static demo page for user recommendation timelines.",
+  "scripts": {
+    "manifest": "node scripts/generate-manifest.js",
+    "start": "python3 -m http.server 8080"
+  }
+}

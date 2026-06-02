@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css?v=framework-detail-left-2">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        
+        <h2 class="paper-title">Recommendation as Generation: Unifying Personalized Video Generation and Recommendation at Industrial Scale</h2>
+        <section class="demo-video-section" aria-label="Recommendation-as-Generation demo video">
+          <p class="demo-highlight">
+            Recommendation-as-Generation turns recommendation from retrieving existing videos into generating personalized, interest-aligned videos on demand.
+          </p>
+          <div class="demo-video-frame">
+            <video class="demo-video" src="demo_0518_paper_1080p.mp4?v=compressed-1" controls playsinline preload="metadata"></video>
+          </div>
+        </section>
+        <div class="abstract-block">
+          <h3 class="abstract-title">Abstract</h3>
+          <p class="paper-abstract">
+            Traditional short-video recommendation systems match user interest to a fixed pool of pre-produced videos, which limits their ability to capture fine-grained and dynamic preferences. We propose <strong>Recommendation-as-Generation</strong> (<strong>RaG</strong>), a new paradigm that generates personalized videos on demand from inferred user interest. Our framework unifies generative recommendation and video generation through shared semantic IDs (SIDs), which disentangle video representation into content semantics and creative style semantics, enabling both fine-grained modeling of user interest and controllable generation of interest-aligned videos. We further develop <strong>Video Generation Agents</strong> (<strong>VGAs</strong>) that are conditioned on inferred SIDs to drive hierarchical planning and refinement for video creation, including visual composition, audio alignment, and artistic effect enhancement. To optimize the framework, we introduce <strong>Synergistic Cross-Domain Reward Learning</strong> (<strong>SCRL</strong>), which aligns generation with user interest, real feedback, and video quality via coordinated supervision.
+          </p>
+          <p class="paper-abstract">
+            We deploy RaG on an industrial-scale platform with over 400 million daily active users and evaluate it in a revenue-critical advertising scenario. Online A/B tests show up to <strong>2.06%</strong> ad revenue improvement compared to a strong production GRM baseline. Notably, <strong>1.16%</strong> of this gain is directly attributed to personalized video generation, demonstrating its effectiveness in driving further revenue gains beyond generative recommendation. Our results highlight a closed-loop generative system as a promising paradigm for integrating personalized video generation into recommendation.
+          </p>
+        </div>
+
+        <figure class="framework-figure">
+          <h3 class="framework-title">Framework Overview</h3>
+          <div id="frameworkBoard" class="framework-board" aria-label="Interactive framework overview">
+            <img class="framework-image" src="assets/framework.png" alt="Overview of the proposed Recommendation-as-Generation framework">
+            <a class="framework-pdf-link" href="assets/framework.pdf">Open full PDF</a>
+          </div>
+          <figcaption>
+            Overview of the proposed Recommendation-as-Generation (RaG) framework. Videos are encoded into disentangled Semantic IDs (SIDs) for unified recommendation and generation. Conditioned on user intent, Video Generation Agents (VGAs) generate personalized videos through multi-stage planning and iterative refinement. Synergistic Cross-Domain Reward Learning (SCRL) further enhances the full framework by jointly capturing user interest alignment, generation quality, and user engagement signals.
+          </figcaption>
+          <aside id="frameworkDetail" class="framework-detail" aria-live="polite">
+            <p class="framework-detail-kicker">Framework Module</p>
+            <h4>Recommendation-as-Generation Framework</h4>
+            <p>
+              Hover over the architecture to inspect the unified Recommendation-as-Generation pipeline: videos are encoded into disentangled Semantic IDs (SIDs), user intent conditions personalized video generation through Video Generation Agents (VGAs), and the full framework is jointly optimized via cross-domain rewards.
+            </p>
+          </aside>
+        </figure>
+
+      </header>
+
+      <section id="timelineRoot" class="timelines" aria-label="User recommendation timelines"></section>
+
+      <section id="emptyState" class="empty" hidden>
+        <h2>No timeline assets found</h2>
+        <p>Add user folders under <code>assets/users/</code>, place ordered images and videos inside, then run <code>npm run manifest</code>.</p>
+      </section>
+    </main>
+
+    <script src="app.js?v=framework-modules-pdf-1"></script>
+  </body>
+</html>
