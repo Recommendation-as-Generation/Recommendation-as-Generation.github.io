@@ -291,7 +291,7 @@ body {
 .framework-detail h4 {
   margin: 0 0 8px;
   color: #2f66df;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.25;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -300,8 +300,8 @@ body {
 .framework-detail p {
   margin: 0;
   color: var(--muted);
-  font-size: 17px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.55;
   text-align: left;
 }
 
@@ -810,17 +810,18 @@ code {
 
 @media (max-width: 760px) {
   .shell {
-    padding: 24px 14px 36px;
+    padding: 18px 18px 32px;
   }
 
   .topbar {
-    gap: 14px;
-    padding-bottom: 24px;
+    gap: 12px;
+    padding-bottom: 22px;
   }
 
   .paper-title {
-    font-size: 32px;
-    line-height: 1.06;
+    width: 100%;
+    font-size: 23px;
+    line-height: 1.1;
   }
 
   .demo-video-section,
@@ -830,55 +831,201 @@ code {
 
   .demo-highlight {
     width: 100%;
-    font-size: 18px;
+    margin: 0 auto 12px;
+    font-size: 16px;
+    line-height: 1.28;
   }
 
   .demo-video-frame,
   .framework-board {
     width: 100%;
+    padding: 8px;
+  }
+
+  .abstract-block {
+    width: calc(100% - 18px);
+    margin-top: 0;
+  }
+
+  .abstract-title {
+    margin-bottom: 6px;
+    font-size: 20px;
   }
 
   .paper-abstract {
-    font-size: 16px;
-    line-height: 1.55;
-  }
-
-  .framework-title {
-    font-size: 19px;
-  }
-
-  .framework-figure figcaption {
-    font-size: 13px;
+    margin-bottom: 10px;
+    font-size: 14px;
     line-height: 1.5;
   }
 
+  .paper-actions {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .paper-action {
+    min-height: 30px;
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .paper-action-icon {
+    min-width: 26px;
+    height: 17px;
+  }
+
+  .framework-title {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+
+  .framework-figure figcaption {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.48;
+  }
+
+  .framework-pdf-link {
+    right: 10px;
+    bottom: 10px;
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  .framework-detail {
+    margin-top: 12px;
+    padding: 16px 15px;
+  }
+
+  .framework-detail-kicker {
+    margin-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 1.6px;
+  }
+
+  .framework-detail h4 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 1.22;
+    letter-spacing: 0.8px;
+  }
+
+  .framework-detail p {
+    font-size: 13px;
+    line-height: 1.48;
+  }
+
+  .timelines {
+    padding-top: 26px;
+  }
+
+  .case-study {
+    gap: 13px;
+  }
+
+  .case-study-title {
+    font-size: 21px;
+  }
+
   .case-study-intro {
-    font-size: 15px;
+    margin: -2px auto 2px;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .user-tabs {
-    width: min(360px, 100%);
-    gap: 10px;
+    width: 100%;
+    gap: 8px;
   }
 
   .user-tab {
-    flex-basis: calc(50% - 5px);
-    min-height: 48px;
-    font-size: 14px;
+    flex-basis: calc(50% - 4px);
+    min-height: 42px;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+  }
+
+  .case-headline {
+    margin: 2px 0 12px;
+    font-size: 21px;
+    line-height: 1.18;
   }
 
   .timeline-row {
     grid-template-columns: 1fr;
+    gap: 16px;
     min-height: 0;
-    padding: 14px;
+    padding: 10px;
   }
 
   .user-header {
-    gap: 12px;
+    gap: 10px;
+  }
+
+  .user-header h2 {
+    font-size: 22px;
+  }
+
+  .profile-label {
+    padding-top: 10px;
+  }
+
+  .profile-chips {
+    gap: 8px;
+  }
+
+  .profile-chip {
+    padding: 8px 9px;
+  }
+
+  .profile-chip dt {
+    font-size: 10.5px;
+  }
+
+  .profile-chip dd {
+    font-size: 13.5px;
+    line-height: 1.4;
+  }
+
+  .stage-legend {
+    gap: 8px;
+    margin-bottom: 7px;
+  }
+
+  .stage-pill {
+    min-height: 28px;
+    padding: 0 10px;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+  }
+
+  .timeline-scroller {
+    padding-bottom: 10px;
   }
 
   .timeline-rail {
-    grid-auto-columns: minmax(152px, 58vw);
-    gap: 16px;
+    grid-auto-columns: minmax(142px, 54vw);
+    gap: 14px;
+  }
+
+  .type-badge {
+    margin-top: 10px;
+    font-size: 11px;
+  }
+
+  .asset-name {
+    font-size: 13px;
+  }
+
+  .pinned-video {
+    padding-top: 10px;
+  }
+
+  .pinned-video .timeline-card.video {
+    gap: 8px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 8px;
   }
 }
