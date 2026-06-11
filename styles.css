@@ -119,6 +119,69 @@ body {
   margin-bottom: 0;
 }
 
+.paper-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.paper-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  padding: 7px 12px;
+  border: 1px solid rgba(36, 41, 39, 0.1);
+  border-radius: 999px;
+  color: var(--muted);
+  background: #f2f3f2;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.paper-action:disabled {
+  cursor: default;
+}
+
+.paper-action-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.paper-action-arxiv {
+  border-color: rgba(178, 36, 36, 0.16);
+  color: #a33939;
+  background: rgba(178, 36, 36, 0.055);
+}
+
+.paper-action-arxiv .paper-action-icon {
+  color: #fff;
+  background: #b63b3b;
+}
+
+.paper-action-pdf {
+  color: #59615e;
+  background: #f1f2f1;
+}
+
+.paper-action-pdf .paper-action-icon {
+  color: #59615e;
+  background: #dedfdd;
+}
+
 .framework-figure {
   width: min(1120px, 100%);
   margin: 14px auto 0;
