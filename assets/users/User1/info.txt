@@ -1,1 +1,1 @@
-gender: unspecified, age: 18-34, interests: gym workouts, strength training, body shaping, fitness outfits, healthy meal planning
+gender: male, age: 18-25, interests: gym workouts, strength training, body shaping, fitness outfits, healthy meal planning
