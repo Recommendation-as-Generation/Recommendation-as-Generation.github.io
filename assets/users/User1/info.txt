@@ -1,1 +1,1 @@
-gender: female, age: 18-24, interests: social apps, voice chat, follower growth, short dramas, gaming communities
+gender: unspecified, age: 18-34, interests: gym workouts, strength training, body shaping, fitness outfits, healthy meal planning

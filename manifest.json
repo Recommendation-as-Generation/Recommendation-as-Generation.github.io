@@ -1,58 +1,64 @@
 {
-  "generatedAt": "2026-06-12T03:06:17.294Z",
+  "generatedAt": "2026-06-23T13:02:41.661Z",
   "users": [
     {
       "id": "User1",
       "label": "User1",
-      "description": "gender: female, age: 18-24, interests: social apps, voice chat, follower growth, short dramas, gaming communities",
+      "description": "gender: unspecified, age: 18-34, interests: gym workouts, strength training, body shaping, fitness outfits, healthy meal planning",
       "items": [
         {
           "type": "image",
-          "name": "01-soul-voice-chat",
-          "file": "assets/users/User1/01-soul-voice-chat.jpeg",
-          "caption": "Voice-chat signal: intimate Soul conversation with repeated short audio replies."
-        },
-        {
-          "type": "video",
           "name": "1",
-          "file": "assets/users/User1/1.mp4",
-          "caption": ""
+          "file": "assets/users/User1/1.png",
+          "caption": "Gym-training signal: interest in cable machine workouts, strength training, and female fitness routines."
         },
         {
           "type": "image",
-          "name": "02-soul-night-chat-stickers",
-          "file": "assets/users/User1/02-soul-night-chat-stickers.jpeg",
-          "caption": "Night-chat signal: late-evening Soul messaging with cute stickers and voice notes."
+          "name": "2",
+          "file": "assets/users/User1/2.png",
+          "caption": "Upper-body signal: focused gym content showing plate-loaded shoulder or chest pressing movements."
         },
         {
           "type": "image",
-          "name": "03-soul-map-social-discovery",
-          "file": "assets/users/User1/03-soul-map-social-discovery.jpeg",
-          "caption": "Social-discovery signal: Soul map feature and nearby friend exploration interest."
+          "name": "3",
+          "file": "assets/users/User1/3.png",
+          "caption": "Arm-training signal: dumbbell curl tutorial content for biceps shaping and strength development."
         },
         {
           "type": "image",
-          "name": "04-social-growth-tutorial",
-          "file": "assets/users/User1/04-social-growth-tutorial.jpeg",
-          "caption": "Creator-growth signal: advice content about rapidly gaining followers and engagement."
+          "name": "4",
+          "file": "assets/users/User1/4.png",
+          "caption": "Shoulder-workout signal: structured shoulder day routine with dumbbell presses, lateral raises, and cable movements."
         },
         {
           "type": "image",
-          "name": "05-fashion-self-confidence",
-          "file": "assets/users/User1/05-fashion-self-confidence.jpeg",
-          "caption": "Self-presentation signal: fashion-oriented selfie content tied to confidence and appearance."
+          "name": "5",
+          "file": "assets/users/User1/5.png",
+          "caption": "Dance-fitness signal: high-sweat cardio routine combining body shaping, core engagement, and rhythmic exercise."
         },
         {
           "type": "image",
-          "name": "06-free-short-drama",
-          "file": "assets/users/User1/06-free-short-drama.jpeg",
-          "caption": "Short-drama signal: interest in free romantic drama clips and mobile entertainment apps."
+          "name": "6",
+          "file": "assets/users/User1/6.png",
+          "caption": "Fitness-outfit signal: gym wear styling and body-shaping apparel for workout presentation."
         },
         {
           "type": "image",
-          "name": "07-gaming-profile-cosplay",
-          "file": "assets/users/User1/07-gaming-profile-cosplay.jpeg",
-          "caption": "Gaming-social signal: game profile showcase with cute cosplay styling and community sharing."
+          "name": "7",
+          "file": "assets/users/User1/7.png",
+          "caption": "Fashion-styling signal: polished black outfit content emphasizing appearance, self-presentation, and style inspiration."
+        },
+        {
+          "type": "image",
+          "name": "8",
+          "file": "assets/users/User1/8.png",
+          "caption": "Occasion-look signal: elegant white dress styling with makeup and portrait-focused beauty presentation."
+        },
+        {
+          "type": "image",
+          "name": "9",
+          "file": "assets/users/User1/9.png",
+          "caption": "Healthy-meal signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, rice, and egg."
         }
       ]
     },
