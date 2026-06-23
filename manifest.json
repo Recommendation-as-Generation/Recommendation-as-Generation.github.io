@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T14:03:44.182Z",
+  "generatedAt": "2026-06-23T15:38:44.620Z",
   "users": [
     {
       "id": "User1",
@@ -8,9 +8,9 @@
       "items": [
         {
           "type": "image",
-          "name": "01-gym-cable-pulldown",
-          "file": "assets/users/User1/01-gym-cable-pulldown.png",
-          "caption": "Gym-training signal: interest in cable machine workouts, strength training, and female fitness routines."
+          "name": "01-indoor-fitness-routine",
+          "file": "assets/users/User1/01-indoor-fitness-routine.png",
+          "caption": "Gym-training signal: interest in indoor workouts, strength training, and female fitness routines."
         },
         {
           "type": "video",
