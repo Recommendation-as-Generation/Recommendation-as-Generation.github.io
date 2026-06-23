@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:39:18.247Z",
+  "generatedAt": "2026-06-23T14:03:44.182Z",
   "users": [
     {
       "id": "User1",
@@ -11,6 +11,12 @@
           "name": "01-gym-cable-pulldown",
           "file": "assets/users/User1/01-gym-cable-pulldown.png",
           "caption": "Gym-training signal: interest in cable machine workouts, strength training, and female fitness routines."
+        },
+        {
+          "type": "video",
+          "name": "1",
+          "file": "assets/users/User1/1.mp4",
+          "caption": ""
         },
         {
           "type": "image",
@@ -58,7 +64,7 @@
           "type": "image",
           "name": "09-healthy-muscle-building-meals",
           "file": "assets/users/User1/09-healthy-muscle-building-meals.png",
-          "caption": "Muscle-building signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, ahd rice."
+          "caption": "Muscle-building signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, and rice."
         }
       ]
     },
