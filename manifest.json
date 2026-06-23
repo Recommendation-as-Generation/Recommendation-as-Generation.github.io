@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:02:41.661Z",
+  "generatedAt": "2026-06-23T13:11:20.977Z",
   "users": [
     {
       "id": "User1",
@@ -8,56 +8,56 @@
       "items": [
         {
           "type": "image",
-          "name": "1",
-          "file": "assets/users/User1/1.png",
+          "name": "01-gym-cable-pulldown",
+          "file": "assets/users/User1/01-gym-cable-pulldown.png",
           "caption": "Gym-training signal: interest in cable machine workouts, strength training, and female fitness routines."
         },
         {
           "type": "image",
-          "name": "2",
-          "file": "assets/users/User1/2.png",
+          "name": "02-plate-loaded-upper-body-press",
+          "file": "assets/users/User1/02-plate-loaded-upper-body-press.png",
           "caption": "Upper-body signal: focused gym content showing plate-loaded shoulder or chest pressing movements."
         },
         {
           "type": "image",
-          "name": "3",
-          "file": "assets/users/User1/3.png",
+          "name": "03-dumbbell-curl-tutorial",
+          "file": "assets/users/User1/03-dumbbell-curl-tutorial.png",
           "caption": "Arm-training signal: dumbbell curl tutorial content for biceps shaping and strength development."
         },
         {
           "type": "image",
-          "name": "4",
-          "file": "assets/users/User1/4.png",
+          "name": "04-shoulder-day-workout-routine",
+          "file": "assets/users/User1/04-shoulder-day-workout-routine.png",
           "caption": "Shoulder-workout signal: structured shoulder day routine with dumbbell presses, lateral raises, and cable movements."
         },
         {
           "type": "image",
-          "name": "5",
-          "file": "assets/users/User1/5.png",
+          "name": "05-dance-fitness-fat-burning-routine",
+          "file": "assets/users/User1/05-dance-fitness-fat-burning-routine.png",
           "caption": "Dance-fitness signal: high-sweat cardio routine combining body shaping, core engagement, and rhythmic exercise."
         },
         {
           "type": "image",
-          "name": "6",
-          "file": "assets/users/User1/6.png",
+          "name": "06-gym-outfit-body-shaping",
+          "file": "assets/users/User1/06-gym-outfit-body-shaping.png",
           "caption": "Fitness-outfit signal: gym wear styling and body-shaping apparel for workout presentation."
         },
         {
           "type": "image",
-          "name": "7",
-          "file": "assets/users/User1/7.png",
+          "name": "07-black-fashion-styling",
+          "file": "assets/users/User1/07-black-fashion-styling.png",
           "caption": "Fashion-styling signal: polished black outfit content emphasizing appearance, self-presentation, and style inspiration."
         },
         {
           "type": "image",
-          "name": "8",
-          "file": "assets/users/User1/8.png",
+          "name": "08-white-dress-beauty-look",
+          "file": "assets/users/User1/08-white-dress-beauty-look.png",
           "caption": "Occasion-look signal: elegant white dress styling with makeup and portrait-focused beauty presentation."
         },
         {
           "type": "image",
-          "name": "9",
-          "file": "assets/users/User1/9.png",
+          "name": "09-healthy-fat-loss-lunch",
+          "file": "assets/users/User1/09-healthy-fat-loss-lunch.png",
           "caption": "Healthy-meal signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, rice, and egg."
         }
       ]
