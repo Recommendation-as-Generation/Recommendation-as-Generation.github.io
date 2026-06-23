@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-23T13:11:20.977Z",
+  "generatedAt": "2026-06-23T13:39:18.247Z",
   "users": [
     {
       "id": "User1",
       "label": "User1",
-      "description": "gender: unspecified, age: 18-34, interests: gym workouts, strength training, body shaping, fitness outfits, healthy meal planning",
+      "description": "gender: male, age: 18-25, interests: gym workouts, strength training, body shaping, beautiful girls, healthy meal planning",
       "items": [
         {
           "type": "image",
@@ -56,9 +56,9 @@
         },
         {
           "type": "image",
-          "name": "09-healthy-fat-loss-lunch",
-          "file": "assets/users/User1/09-healthy-fat-loss-lunch.png",
-          "caption": "Healthy-meal signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, rice, and egg."
+          "name": "09-healthy-muscle-building-meals",
+          "file": "assets/users/User1/09-healthy-muscle-building-meals.png",
+          "caption": "Muscle-building signal: calorie-conscious lunch planning with balanced protein, vegetables, corn, ahd rice."
         }
       ]
     },
